@@ -4,12 +4,12 @@ This program allows you to dump anyone's Fortnite Save the World Profiles.
 
 ---
 ### Changelog:
-What's new in the 1.1.0 update:
-- The program's performance is significantly better.
-- Added an option to use the config setup or use the default config values.
-- If the provided username doesn't exist, the program will ask again for a new one.
-- Changed the file size info to show an additional tenth of the size.
-- Fixed an issue with files paths on mobile devices.
+What's new in the 1.2.0 update:
+- The program is now able to dump the profile0 profile.
+  - Since this profile is no longer obtainable from Epic servers, the program recreates it using the profiles it was split to that are obtainable and public (campaign and common_public) plus fixes the survivor portraits and adds maxed out Skill Tree and Research nodes in order to give the profile more functionality.
+- Fixed the program displaying the ```the authorization code you supplied was not issued for your client``` error message when device auth was selected.
+- If the ```Sorry the authorization code you supplied was not found. It is possible that it was no longer valid.``` error message will pop up, the program will no longer close. It will ask you to input the code again instead.
+- Added the ```Found a bug?``` section to the readme.
 - Tweaked the program's code a little bit.
 ---
 
@@ -40,3 +40,8 @@ or this:
 - After that it should start to dump the profiles.
 
 - Congratulations, you just dumped someone's Fortnite Save the World profiles!
+
+---
+
+### Found a bug?
+Feel free to [open an issue](https://github.com/PRO100KatYT/AnyonesSTWProfileDumper/issues/new "Click here if you want to open an issue.") if you encounter any bugs or just have a question.
